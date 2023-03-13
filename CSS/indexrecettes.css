@@ -1,0 +1,58 @@
+body {
+    font-family: Poppins, sans-serif;
+    background: linear-gradient(0deg, rgba(126,107,143,1) 0%, rgba(224,143,143,1) 70%) no-repeat;
+   
+      }
+
+      .alphabet {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          margin-bottom: 20px;
+      }
+
+      .alphabet button {
+          font-size: 16px;
+          font-weight: bold;
+          margin: 5px;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          background-color: #eee;
+          color: #333;
+          cursor: pointer;
+      }
+
+      .alphabet button:hover {
+          background-color: rgb(63, 26, 151);
+    color: white;
+      }
+
+      .recettes {
+          margin-top: 20px;
+      }
+
+      .recettes h2 {
+          font-size: 1.5em;
+          margin-top: 0;
+      }
+
+      .recettes ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+      }
+
+      .recettes li {
+          margin-bottom: 10px;
+          padding-left: 20px;
+      }
+
+      .recettes li:first-child {
+          padding-top: 10px;
+      }
+
+      .recettes li:last-child {
+          margin-bottom: 0;
+      }
+  
