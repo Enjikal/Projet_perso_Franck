@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    /*background: rgb(220,142,143);
+    background: linear-gradient(0deg, rgba(220,142,143,1) 5%, rgba(126,107,143,1) 50%, rgba(224,143,143,1) 95%);*/
+    background-image: url(../Images/Backgroundcuilleresite.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper {
+    width: 650px;
+    height: 650px;
+    border-radius: 20px;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.img {
+    height: 100%;
+    width: 70%;
+    }
+
+.titre-photo {
+    width: 100%;
+    height: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.description{
+    /*background-color: rgba(252, 250, 250, 0);*/
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    font-family: 'Great Vibes', cursive;
+    font-size: 47.5px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+h4{
+    opacity: 1;
+    color: rgb(63, 26, 151);
+}
+@media (max-width: 300px){
+   .swiper{
+    position:fixed
+   }
+}
