@@ -44,7 +44,7 @@ form .corps-formulaire {
 
 form .corps-formulaire .groupe {
   position: relative;
-  /* Pour mettre positionner l’élément dans le flux normal de la page */
+  /* Pour mettre positionner lâ€™Ã©lÃ©ment dans le flux normal de la page */
   margin-top: 20px;
   display: flex;
   flex-direction: column;
@@ -60,7 +60,7 @@ form .corps-formulaire .gauche .groupe input {
 
 form .corps-formulaire .gauche .groupe i {
   position: absolute;
-  /* positionné par rapport à son parent le plus proche positionné */
+  /* positionnÃ© par rapport Ã  son parent le plus proche positionnÃ© */
   left: 0;
   top: 25px;
   padding: 9px 8px;
