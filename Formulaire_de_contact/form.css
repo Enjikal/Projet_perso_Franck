@@ -11,24 +11,27 @@ body {
 }
 
 form {
-  padding: 100px;
+  display: flex;
+  justify-content: center;
   background-image: url(../Images/Formulaire_2.png);
   border-radius: 10px;
   background-repeat: no-repeat;
   background-position-y: -245px;
+  width: auto;
+  height: 100%;
 }
 form h1 {
   font-size: 20px;
   text-align: center;
 }
 form .separation {
-  width: 35%;
+width: 30%;
 background-color: rgba(150, 147, 147, 0.192);
-height: 392PX;
-margin-left: 560PX;
+margin:auto;
 border: 3px solid aliceblue;
 border-radius: 10px;
-text-justify: center; 
+padding: 2rem;
+padding-right: 6rem; 
 }
 
 form .corps-formulaire {
