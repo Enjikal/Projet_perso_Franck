@@ -3,7 +3,6 @@
 body {
   margin: 0px;
   padding: 0px;
-  
   top: 50%;
   left: 50%;
   font-family: "Roboto", sans-serif;
@@ -20,18 +19,20 @@ form {
   width: auto;
   height: 100%;
 }
+
 form h1 {
   font-size: 20px;
   text-align: center;
 }
+
 form .separation {
-width: 30%;
-background-color: rgba(150, 147, 147, 0.192);
-margin:auto;
-border: 3px solid aliceblue;
-border-radius: 10px;
-padding: 2rem;
-padding-right: 6rem; 
+  width: 30%;
+  background-color: rgba(150, 147, 147, 0.192);
+  margin: auto;
+  border: 3px solid aliceblue;
+  border-radius: 10px;
+  padding: 2rem;
+  padding-right: 6rem;
 }
 
 form .corps-formulaire {
@@ -40,12 +41,15 @@ form .corps-formulaire {
   margin-bottom: 40px;
   justify-content: center;
 }
+
 form .corps-formulaire .groupe {
-  position: relative; /* Pour mettre positionner l’élément dans le flux normal de la page */
+  position: relative;
+  /* Pour mettre positionner l’élément dans le flux normal de la page */
   margin-top: 20px;
   display: flex;
   flex-direction: column;
 }
+
 form .corps-formulaire .gauche .groupe input {
   margin-top: 5px;
   padding: 10px 5px 10px 30px;
@@ -53,20 +57,25 @@ form .corps-formulaire .gauche .groupe input {
   outline-color: #747cdf;
   border-radius: 5px;
 }
+
 form .corps-formulaire .gauche .groupe i {
-  position: absolute; /* positionné par rapport à son parent le plus proche positionné */
+  position: absolute;
+  /* positionné par rapport à son parent le plus proche positionné */
   left: 0;
   top: 25px;
   padding: 9px 8px;
   color: #747cdf;
 }
+
 form .corps-formulaire .droite {
   margin-left: 40px;
 }
+
 form .corps-formulaire .droite .groupe {
   height: 120%;
   width: 140%;
 }
+
 form .corps-formulaire .droite .groupe textarea {
   margin-top: 5px;
   padding: 10px;
@@ -77,6 +86,7 @@ form .corps-formulaire .droite .groupe textarea {
   resize: none;
   height: 72%;
 }
+
 form .pied-formulaire button {
   margin-top: 10px;
   background-color: #747cdf;
@@ -89,7 +99,7 @@ form .pied-formulaire button {
   cursor: pointer;
   transition: transform 0.5s;
 }
+
 form .pied-formulaire button:hover {
   transform: scale(1.05);
 }
-
