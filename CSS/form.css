@@ -23,6 +23,7 @@ form {
 form h1 {
   font-size: 20px;
   text-align: center;
+  margin-left: 50px;
 }
 
 form .separation {
@@ -33,6 +34,7 @@ form .separation {
   border-radius: 10px;
   padding: 2rem;
   padding-right: 6rem;
+  
 }
 
 form .corps-formulaire {
@@ -44,7 +46,7 @@ form .corps-formulaire {
 
 form .corps-formulaire .groupe {
   position: relative;
-  /* Pour mettre positionner lâ€™Ã©lÃ©ment dans le flux normal de la page */
+  /* Pour positionner l'élément dans le flux normal de la page */
   margin-top: 20px;
   display: flex;
   flex-direction: column;
@@ -88,7 +90,7 @@ form .corps-formulaire .droite .groupe textarea {
 }
 
 form .pied-formulaire button {
-  margin-top: 10px;
+  margin-top: 5px;
   background-color: #747cdf;
   color: white;
   font-size: 15px;
