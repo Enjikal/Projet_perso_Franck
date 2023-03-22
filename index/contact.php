@@ -4,7 +4,7 @@ $page = '../formulaire de contact/form';
 include '../index/navbar.php';
 $page = './navbar';
 ?>
-<body>
+
     <form>
     <div class="separation">
       <h1>Des questions? Des suggestions?</h1>
@@ -41,7 +41,7 @@ $page = './navbar';
       </div>
       </div>
     </form>
-  </body>
+  
 
 <?php
 include '../index/footer.html';

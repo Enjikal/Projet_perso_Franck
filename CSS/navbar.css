@@ -2,7 +2,6 @@
 ::before,
 ::after {
   box-sizing: border-box;
-  margin: -2px;
   padding: 0;
 }
 
@@ -21,10 +20,16 @@ nav {
   box-shadow: inset 0px -3px 5px #706f6f;
 }
 
-nav.navlinks-container{
+.main-navlinks {
   display: flex;
   justify-content: center;
-  align-items:flex-end;
+  width: 100%;
+}
+nav .navlinks-container{
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  width: 100%;
 }
 .nav-icon {
   display: flex;
@@ -77,26 +82,29 @@ nav.navlinks-container{
   margin-left:auto;
 }
 
-.sign-btns button {
+.sign-btns a{
   font-family: Roboto Flex, sans-serif;
   font-size: 19px;
   color: #f3f2f2;
   background: rgb(63, 26, 151);
-  min-width: 120px;
-  padding: 10px 5px;
+  
+  padding: 10px 10px;
   margin: 0 5px;
   border-radius: 20px;
   cursor: pointer;
-  /*border: none;*/
+  border: 1px solid aliceblue;
   box-shadow: 0px 1px #414141;
- 
 }
 
-.sign-btns button:nth-child(1):active{
+.sign-btns {
+  width: 150px;
+  
+}
+.sign-btns a:nth-child(1):active{
   /*border: none;*/
   background: rgba(126,107,143,1);
   }
-  .sign-btns button:nth-child(2):active{
+  .sign-btns a:nth-child(2):active{
     /*border: none;*/
     background:rgba(126,107,143,1) ;
     }

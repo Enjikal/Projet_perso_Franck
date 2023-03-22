@@ -7,6 +7,8 @@ if(isset($_SESSION) && !empty($_SESSION)){
     $role = $_SESSION['role'];
 }
 ?>
+<!DOCTYPE html>
+<html lang="en">
 
   <head>
     <meta charset="UTF-8" />
@@ -19,11 +21,18 @@ if(isset($_SESSION) && !empty($_SESSION)){
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Flex:opsz,wght@8..144,100;8..144,300;8..144,500;8..144,700;8..144,900&display=swap"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet"/>
-    
+      <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../formulaire de contact/form.css">
+    <link rel="stylesheet" href="../CSS/slider.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Alkalami&family=Great+Vibes&family=Poppins&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+	  <link rel="stylesheet" href="../CSS/indexrecettes.css">
+  
   </head>
   <body>
   
@@ -55,10 +64,10 @@ if(isset($_SESSION) && !empty($_SESSION)){
         </a>
         <div class="sign-btns">
           
-          <button type="button">Se connecter</button>
+          <a type="button" href="registerform.html">Se connecter</a>
         </div>
       </div>
     </nav>
-    <script src="../JS/navbar.js"></script>
-  </body>
+    
+ 
 

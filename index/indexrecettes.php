@@ -4,22 +4,9 @@ $page = '../CSS/indexrecettes';
 include '../index/navbar.php';
 $page = './navbar';
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Flex:opsz,wght@8..144,100;8..144,300;8..144,500;8..144,700;8..144,900&display=swap"
-	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet"/>
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-	<link rel="stylesheet" href="../CSS/indexrecettes.css">
-	<title>Thématique de recettes</title>
-</head>
-<body>
+<div class="backgroundindexrecettes">
 	<ul id="menu-demo2">
-		<li><a href="#">Rapide et facile</a>
+		<li class="stickers"><a href="#">Rapide et facile</a>
 			<ul>
 				<li><a href="#">Aubergines farcies</a></li>
 				<li><a href="#">Burgers au poulet croustillant</a></li>
@@ -27,7 +14,7 @@ $page = './navbar';
 				<li><a href="#">Crevettes sautées pimentées</a></li>
 			</ul>
 		</li>
-		<li><a href="#">Les Entrées</a>
+		<li class="stickers"><a href="#">Les Entrées</a>
 			<ul>
 				<li><a href="#">Makis et Sushis</a></li>
 				<li><a href="#">Salade fraîcheur Thaï</a></li>
@@ -35,7 +22,7 @@ $page = './navbar';
 				<li><a href="#">Taboulé façon "Mam"</a></li>
 			</ul>
 		</li>
-		<li><a href="#">Les plats</a>
+		<li class="stickers"><a href="#">Les plats</a>
 			<ul>
 				<li><a href="#">Aubergines farcies</a></li>
 				<li><a href="#">Poulet au citron</a></li>
@@ -43,7 +30,7 @@ $page = './navbar';
 				<li><a href="#">Tajine d'agneau</a></li>
 			</ul>
 		</li>
-		<li><a href="#">Les desserts</a>
+		<li class="stickers"><a href="#">Les desserts</a>
 			<ul>
 				<li><a href="#">Bavarois aux fruits de la passion</a></li>
 				<li><a href="#">Demies-sphères au chocolat</a></li>
@@ -52,7 +39,7 @@ $page = './navbar';
 				<li><a href="#">Tarte au citron meringuée</a></li>
 			</ul>
 		</li>
-		  <li><a href="#">Pain et Pâtes</a>
+		  <li class="stickers"><a href="#">Pain et Pâtes</a>
 			<ul>
 				<li><a href="#">Pain façon "Mam"</a></li>
 				<li><a href="#">Pâte à pizza</a></li>
@@ -63,7 +50,7 @@ $page = './navbar';
 			</ul>
 		</li>
 	</ul>
-</body>
-
-
-</html>
+</div>
+	<?php
+include '../index/footer.html';
+?>
