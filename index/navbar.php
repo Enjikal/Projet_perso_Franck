@@ -42,7 +42,7 @@ if(isset($_SESSION) && !empty($_SESSION)){
         </button>
         <div class="navlinks-container">
           <a href="../index/slider.php" aria-current="page">Accueil</a>
-          <a href="#">Index des recettes</a>
+          <a href="../index/indexrecettes.php">Index des recettes</a>
           <a href="#">Thématique</a>
           <a href="#">Boutique</a>
           <a href="contact.php">Contact</a>
@@ -54,11 +54,11 @@ if(isset($_SESSION) && !empty($_SESSION)){
           <img src="assets/user-svgrepo-com.svg" alt="user-icon">
         </a>
         <div class="sign-btns">
-          <button type="button">S'inscrire</button>
+          
           <button type="button">Se connecter</button>
         </div>
       </div>
     </nav>
-    <script src="navbar.js"></script>
+    <script src="../JS/navbar.js"></script>
   </body>
 
