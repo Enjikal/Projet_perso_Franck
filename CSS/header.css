@@ -1,5 +1,5 @@
 
-body {
+/*body {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -27,7 +27,7 @@ header {
     justify-content: space-evenly;
     align-items: center;
     transition: 0.5s;
-    /*background-color: #7E6B8F;*/
+    /*background-color: #7E6B8F;
     background: rgb(126,107,143);
     background: linear-gradient(180deg, rgba(126,107,143,1) 0%, rgba(224,143,143,1) 100%, rgba(0,212,255,1) 100%);
     text-decoration: none;
@@ -40,7 +40,7 @@ header {
     text-decoration: none;
     width: 1rem;
     /*display: flex;
-    justify-content: center;*/
+    justify-content: center;
     
 }
 
@@ -92,5 +92,5 @@ header .navbar li a:hover {
     text-align: center;
     padding: 3rem;
     text-align: left;
-}
+}*/
 

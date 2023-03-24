@@ -12,17 +12,17 @@ $page = './navbar';
         <div class="gauche">
           <div class="groupe">
             <label>Nom</label>
-            <input type="text" autocomplete="off" />
+            <input type="text" autocomplete="off" >
             <i class="fas fa-user"></i>
           </div>
           <div class="groupe">
             <label>Adresse e-mail</label>
-            <input type="text" autocomplete="off" />
+            <input type="text" autocomplete="off" >
             <i class="fas fa-envelope"></i>
           </div>
           <div class="groupe">
             <label>Téléphone</label>
-            <input type="text" autocomplete="off" placeholder="(Facultatif)" />
+            <input type="text" autocomplete="off" placeholder="(Facultatif)" >
            <i class="fas fa-phone"></i>
           </div>
         </div>
@@ -36,7 +36,7 @@ $page = './navbar';
       </div>
       
 
-      <div class="pied-formulaire" align="center">
+      <div class="pied-formulaire">
         <button>Envoyer le message</button>
       </div>
       </div>

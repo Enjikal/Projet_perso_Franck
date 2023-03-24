@@ -1,11 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Lobster&family=Poppins&family=Sofia&display=swap');
 
 body {
   margin: 0px;
   padding: 0px;
   top: 50%;
   left: 50%;
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
 }
 
@@ -22,6 +21,7 @@ form {
 
 form h1 {
   font-size: 20px;
+  /*font-family: 'Lobster', cursive;*/
   text-align: center;
   margin-left: 50px;
 }
@@ -54,6 +54,7 @@ form .corps-formulaire .groupe {
 
 form .corps-formulaire .gauche .groupe input {
   margin-top: 5px;
+  margin: auto;
   padding: 10px 5px 10px 30px;
   border: 1px solid #c9c9c9;
   outline-color: #747cdf;
@@ -62,7 +63,7 @@ form .corps-formulaire .gauche .groupe input {
 
 form .corps-formulaire .gauche .groupe i {
   position: absolute;
-  /* positionnÃ© par rapport Ã  son parent le plus proche positionnÃ© */
+  /* positionné par rapport à  son parent le plus proche positionné */
   left: 0;
   top: 25px;
   padding: 9px 8px;
