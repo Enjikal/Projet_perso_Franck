@@ -26,13 +26,29 @@ if(isset($_SESSION) && !empty($_SESSION)){
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../formulaire de contact/form.css">
     <link rel="stylesheet" href="../CSS/slider.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Alkalami&family=Great+Vibes&family=Poppins&display=swap" rel="stylesheet"> 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
 	  <link rel="stylesheet" href="../CSS/indexrecettes.css">
-    
+    <?php 
+   if($page==='contact'){
+
+   
+    ?>
+    <link rel="stylesheet" href="../CSS/form.css">
+    <?php
+   }
+    ?>
+       <?php 
+   if($page==='registerform'){
+
+   
+    ?>
+    <link rel="stylesheet" href="../CSS/registerform.css">
+    <?php
+   }
+    ?>
   </head>
   <body>
   
@@ -64,7 +80,7 @@ if(isset($_SESSION) && !empty($_SESSION)){
         </a>
         <div class="sign-btns">
           
-          <a type="button" href="registerform.html">Se connecter</a>
+          <a type="button" href="registerform.php">Se connecter</a>
         </div>
       </div>
     </nav>

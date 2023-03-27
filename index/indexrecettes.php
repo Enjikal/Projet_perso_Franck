@@ -1,8 +1,8 @@
 <?php
 session_start();
-$page = '../CSS/indexrecettes';
+$page = 'indexrecettes';
 include '../index/navbar.php';
-$page = './navbar';
+
 ?>
 <div class="backgroundindexrecettes">
 	<ul id="menu-demo2">

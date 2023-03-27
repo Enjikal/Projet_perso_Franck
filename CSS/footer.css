@@ -8,11 +8,11 @@
     --secondary:#c236d4;
 }
 
-body{
+/*body{
     margin:0;
-    /*overflow-x:hidden !important;*/ 
+    /*overflow-x:hidden !important; 
     font-family: 'Poppins', sans-serif;
-}
+}*/
 
 a{
     text-decoration:none !important;
@@ -51,11 +51,6 @@ fieldset{
 .flex, .fixed_flex:nth-child(2){
     display:flex;
     justify-content: space-between;
-}
-
-.flex-content{
-    width:100%;
-    /*position:relative;*/ 
 }
 
 .padding_1x{
@@ -194,6 +189,7 @@ footer .flex:last-child a{
     padding:0.5rem;
     margin-right:3px;
     text-align:center;
+    border-radius: 20px;
 }
 
 footer .flex:last-child a:hover{

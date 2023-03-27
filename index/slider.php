@@ -1,8 +1,8 @@
 <?php
 session_start();
-$page = '../CSS/slider';
+$page = 'slider';
 include '../index/navbar.php';
-$page = './navbar';
+
 ?>
 
     <div class="container">
