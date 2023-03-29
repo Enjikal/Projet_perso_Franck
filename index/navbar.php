@@ -69,8 +69,8 @@ if(isset($_SESSION) && !empty($_SESSION)){
           <a href="#" aria-current="page">Accueil</a>
           <a href="../index/slider.php">Galerie</a>
           <a href="../index/indexrecettes.php">Index des recettes</a>
-          <a href="#">Boutique</a>
-          <a href="contact.php">Contact</a>
+          <a href="#">La boutique</a>
+          <a href="../index/contact.php">Contact</a>
         </div>
       </div>
 

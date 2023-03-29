@@ -27,9 +27,9 @@ include '../index/navbar.php';
         </div>
         <div class="remember-forgot">
           <label><input type="checkbox"> Se souvenir de moi</label>
-          <a href="#">Mot de passe oublié ?</a>
+             <a href="#">Mot de passe oublié ?</a>
         </div>
-        <button type="submit" class="btn">Me connecter</button>
+        <button type="submit" class="btn-register">Me connecter</button>
         <div class="login-register">
           <p>Créer un compte<a href="#" class="register-link">M'enregistrer</a></p>
         </div>
@@ -57,7 +57,7 @@ include '../index/navbar.php';
         <div class="remember-forgot">
           <label><input type="checkbox"> J'accepte les Conditions Générales d'Utilisation</label>
         </div>
-        <button type="submit" class="btn">Créer mon compte</button>
+        <button type="submit" class="btn-register">Créer mon compte</button>
         <div class="login-register">
           <p>J'ai déjà un compte <a href="#" class="login-link">Me connecter</a></p>
         </div>

@@ -9,6 +9,7 @@
   height: 100vh;
   background: url('../Images/Backgroundconnexion2.PNG') no-repeat;
   background-size: cover;
+  display: flex;
 }
 .wrapper{
   margin: auto;
@@ -32,7 +33,7 @@
 .wrapper .form-box{
   width: 78%;
   height: 500px;
-  padding: 40px;
+  padding: 30px;
 }
 
 
@@ -125,8 +126,7 @@
   font-size: 19px;
   font-weight: 500;
   margin: -15px 0 15px;
-  display: flex;
-  justify-content: space-between;
+  
 }
 
 .remember-forgot label input{
@@ -137,13 +137,14 @@
 .remember-forgot a{
   color: rgba(4, 4, 248, 0.801);
   text-decoration: none;
+  
 }
 
 .remember-forgot a:hover{
   text-decoration: underline;
 }
 
-.btn{
+.btn-register{
   width: 100%;
   height: 45px;
   background: aliceblue;
@@ -155,7 +156,7 @@
   font-weight: 500;
 }
 
-.btn:hover {
+.btn-register:hover {
   background-color: #4f04c9;
   transform: scale(1.1);
   color: aliceblue;
@@ -163,7 +164,7 @@
 }
 
 .login-register{
-  font-size: 19px;
+  font-size: 18px;
   text-align: center;
   font-weight: 500;
   margin: 25px 0 10px;
@@ -173,7 +174,7 @@
   color: rgba(4, 4, 248, 0.801);
   text-decoration: none;
   font-weight: 600;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 .login-register p a:hover{

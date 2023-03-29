@@ -51,6 +51,6 @@ include '../index/navbar.php';
 		</li>
 	</ul>
 </div>
-	<?php
+<?php
 include '../index/footer.html';
 ?>

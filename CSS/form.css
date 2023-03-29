@@ -28,11 +28,12 @@ form{
   }
   
   form ,label{
-    font-style: 'Sofia', cursive;
+    /*font-style: 'Sofia', cursive;*/
     font-size: 18px;
     margin-right: 0px;
     margin-left: 0px;
-    width: 100%;}
+    width: 100%;
+  }
   
   button[type=button] {
     background-color: #460194;
@@ -46,6 +47,7 @@ form{
   
   button[type=button]:hover {
     background-color: #6f02b8;
+    /*width: 40px;*/
   }
   
   .container-form {
@@ -80,7 +82,7 @@ form{
 
   .formsend button{
     font-family: "Alkatra", cursive;
-    font-size: 18px;   
+    font-size: 19px;   
   }
   .formsend button:hover{
     transform: scale(1.05);
