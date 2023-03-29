@@ -81,13 +81,14 @@ nav .navlinks-container{
 
 .nav-authentication {
   margin-left:auto;
+  display: flex;
 }
 
 .sign-btns a{
   font-family: Roboto Flex, sans-serif;
   font-size: 19px;
   color: #f3f2f2;
-  background: rgb(63, 26, 151);
+  /*background: rgb(63, 26, 151);*/
   padding: 10px 10px;
   margin: 0 5px;
   border-radius: 20px;
@@ -106,12 +107,24 @@ nav .navlinks-container{
 }
 
 .sign-btns {
-  width: 150px;
+  width: 340px;
+  display:flex;
+  justify-content: space-between;
 }
 
-.sign-btns a:nth-child(1):active{
-  /*border: none;*/
-  background: rgba(126,107,143,1);
+.sign-btns :first-child{
+  width: 180px;
+  background: rgba(224,143,143,1);
+  border-bottom: 3px solid rgb(224, 114, 114);
+}
+
+.sign-btns :nth-child(2){
+  background: rgb(94, 49, 134);
+}
+
+.sign-btns :first-child :active{
+  
+  background: rgb(2, 1, 2);
   }
 
   .sign-btns a:nth-child(2):active{

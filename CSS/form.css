@@ -3,7 +3,8 @@ form{
   display: flex;
   justify-content: center;
   background-image: url(../Images/Formulaire_2.png);
-
+  text-align: start;
+  font-family: 'Alkatra', cursive;
 }
 
 .contact-form{
@@ -28,8 +29,8 @@ form{
   }
   
   form ,label{
-    /*font-style: 'Sofia', cursive;*/
-    font-size: 18px;
+    /*font-style: 'Sofia', cursive; */
+    font-size: 18px;  
     margin-right: 0px;
     margin-left: 0px;
     width: 100%;
@@ -69,10 +70,9 @@ form{
   }
 
 
-  form, a{
-    text-align: start;
-    font-family: 'Alkatra', cursive;
-  }
+  /*form, a{
+    
+  }*/
   
   .formsend{
     width: 100%;

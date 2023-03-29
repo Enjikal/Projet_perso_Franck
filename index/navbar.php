@@ -15,7 +15,7 @@ if(isset($_SESSION) && !empty($_SESSION)){
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Navbar</title>
-    <link rel="stylesheet" href="../CSS/navbar.css" />
+    <link rel="stylesheet" href="../CSS/navbar.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,14 +23,15 @@ if(isset($_SESSION) && !empty($_SESSION)){
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet"/>
       <link rel="stylesheet" href="../CSS/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/slider.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Alkalami&family=Great+Vibes&family=Poppins&display=swap" rel="stylesheet"> 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
 	  <link rel="stylesheet" href="../CSS/indexrecettes.css">
+    
     <?php 
    if($page==='contact'){
 
@@ -79,7 +80,7 @@ if(isset($_SESSION) && !empty($_SESSION)){
           <img src="assets/user-svgrepo-com.svg" alt="user-icon">
         </a>
         <div class="sign-btns">
-          
+          <a type="button" href="#">Mon panier<i class="fa-light fa-basket-shopping"></i></i></a>
           <a type="button" href="registerform.php">Se connecter</a>
         </div>
       </div>
