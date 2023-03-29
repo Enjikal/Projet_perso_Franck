@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: aliceblue;
+  line-height: 1.6;
+}
+
+#background-home{
+  background: url(../images/Nappe-rouge-et-table-bois.jpg);
+  /*background-repeat: no-repeat;*/
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#background-home h1{
+  font-size: 50px;
+}
+
+#background-home p{
+  font-size: 20px;
+}
+
+#background-home .more-button{
+  font-size: 18px ;
+  text-decoration: none;
+  color: blueviolet;
+  border: blueviolet 3px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
