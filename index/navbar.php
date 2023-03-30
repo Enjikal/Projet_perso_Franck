@@ -22,9 +22,8 @@ if(isset($_SESSION) && !empty($_SESSION)){
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Flex:opsz,wght@8..144,100;8..144,300;8..144,500;8..144,700;8..144,900&display=swap"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet"/>
       <link rel="stylesheet" href="../CSS/footer.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/slider.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
@@ -32,6 +31,8 @@ if(isset($_SESSION) && !empty($_SESSION)){
     <link rel="preconnect" href="https://fonts.googleapis.com" />
 	  <link rel="stylesheet" href="../CSS/indexrecettes.css">
     <link rel="stylesheet" href="../CSS/home.css">
+    
+    
     <?php 
    if($page==='contact'){
 
@@ -80,7 +81,7 @@ if(isset($_SESSION) && !empty($_SESSION)){
           <img src="assets/user-svgrepo-com.svg" alt="user-icon">
         </a>
         <div class="sign-btns">
-          <a type="button" href="#">Mon panier<i class="fa-light fa-basket-shopping"></i></i></a>
+          <a type="button" href="#">Mon panier<i class="fa-light fa-basket-shopping"></i></a>
           <a type="button" href="registerform.php">Se connecter</a>
         </div>
       </div>

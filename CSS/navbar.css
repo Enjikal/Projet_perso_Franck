@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Delicious+Handrawn&family=Lobster&family=Poppins&family=Sofia&display=swap');
 *,
 ::before,
 ::after {
@@ -6,7 +7,6 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif; 
   background: #d4d3d3;
   height: 117vh;
 }
@@ -31,6 +31,7 @@ nav .navlinks-container{
   justify-content: center;
   gap: 3rem;
   width: 100%;
+  font-family: 'Poppins', sans-serif;
 }
 .nav-icon {
   display: flex;
@@ -92,7 +93,7 @@ nav .navlinks-container{
   padding: 10px 10px;
   margin: 0 5px;
   border-radius: 20px;
-  border-bottom: 5px solid rgb(41, 14, 104);
+  border-bottom: 3px solid rgb(41, 14, 104);
   text-shadow: 0px -2px rgb(41, 14, 104);
   transition: all .1s;
   -webkit-transition: all .1s;
