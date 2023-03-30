@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Delicious+Handrawn&family=Lobster&family=Poppins&family=Sofia&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -25,7 +27,8 @@ body{
 }
 
 #background-home h1{
-  font-size: 50px;
+  font-family: 'Alkatra', 'cursive';
+  font-size: 55px;
 }
 
 #background-home p{
@@ -33,11 +36,16 @@ body{
 }
 
 #background-home .more-button{
-  font-size: 18px ;
+  font-size: 20px ;
   text-decoration: none;
-  color: blueviolet;
+  color: aliceblue;
   border: blueviolet 3px solid;
   padding: 10px 20px;
   border-radius: 10px;
   margin-top: 20px;
+}
+
+#background-home .more-button:hover{
+  background: blueviolet;
+  color: aliceblue;
 }

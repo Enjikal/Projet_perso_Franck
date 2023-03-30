@@ -31,7 +31,7 @@ if(isset($_SESSION) && !empty($_SESSION)){
     <link href="https://fonts.googleapis.com/css2?family=Alkalami&family=Great+Vibes&family=Poppins&display=swap" rel="stylesheet"> 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
 	  <link rel="stylesheet" href="../CSS/indexrecettes.css">
-    
+    <link rel="stylesheet" href="../CSS/home.css">
     <?php 
    if($page==='contact'){
 
@@ -67,7 +67,7 @@ if(isset($_SESSION) && !empty($_SESSION)){
           <span></span>
         </button>
         <div class="navlinks-container">
-          <a href="#" aria-current="page">Accueil</a>
+          <a href="../index/home.php" aria-current="page">Accueil</a>
           <a href="../index/slider.php">Galerie</a>
           <a href="../index/indexrecettes.php">Index des recettes</a>
           <a href="#">La boutique</a>
