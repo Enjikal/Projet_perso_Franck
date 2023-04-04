@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Delicious+Handrawn&family=Lobster&family=Poppins&family=Sofia&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  color: black;
+  font-weight:bold;
+  line-height: 1.6;
+}
+
+.text-aboutus{
+  width: 50%;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 20px 15px;
+  backdrop-filter: blur(20px);
+  display: flex;
+}
+#background-home{
+  background: url(../images/Nappe-rouge-et-table-bois.jpg);
+  /*background-repeat: no-repeat;*/
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#background-home h1{
+  font-family: 'Alkatra', 'cursive';
+  font-size: 55px;
+}
+
+#background-home p{
+  font-size: 20px;
+  
+}
+
+#background-home .more-button{
+  font-size: 20px ;
+  text-decoration: none;
+  color: aliceblue;
+  border: blueviolet 3px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#background-home .more-button:hover{
+  background: blueviolet;
+  color: aliceblue;
+}

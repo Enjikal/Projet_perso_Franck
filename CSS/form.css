@@ -1,107 +1,95 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-
-body {
-  margin: 0px;
-  padding: 0px;
-  top: 50%;
-  left: 50%;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-}
-
-form {
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Delicious+Handrawn&family=Lobster&family=Poppins&family=Sofia&display=swap');
+form{
   display: flex;
   justify-content: center;
   background-image: url(../Images/Formulaire_2.png);
-  border-radius: 10px;
-  background-repeat: no-repeat;
-  background-position-y: -245px;
-  width: auto;
-  height: 100%;
+  text-align: start;
+  font-family: 'Alkatra', cursive;
 }
 
-form h1 {
-  font-size: 20px;
-  text-align: center;
-  margin-left: 50px;
-}
-
-form .separation {
-  width: 30%;
-  background-color: rgba(150, 147, 147, 0.192);
-  margin: auto;
-  border: 3px solid aliceblue;
-  border-radius: 10px;
-  padding: 2rem;
-  padding-right: 6rem;
-  
-}
-
-form .corps-formulaire {
+.contact-form{
   display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 40px;
   justify-content: center;
+  /*justify-items: center;*/
+  height: 105vh;
 }
 
-form .corps-formulaire .groupe {
-  position: relative;
-  /* Pour positionner l'élément dans le flux normal de la page */
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-}
 
-form .corps-formulaire .gauche .groupe input {
-  margin-top: 5px;
-  padding: 10px 5px 10px 30px;
-  border: 1px solid #c9c9c9;
-  outline-color: #747cdf;
-  border-radius: 5px;
-}
 
-form .corps-formulaire .gauche .groupe i {
-  position: absolute;
-  /* positionnÃ© par rapport Ã  son parent le plus proche positionnÃ© */
-  left: 0;
-  top: 25px;
-  padding: 9px 8px;
-  color: #747cdf;
-}
+   input[type=text], textarea, input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  
+  form ,label{
+    /*font-style: 'Sofia', cursive; */
+    font-size: 18px;  
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+    color: black;
+  }
+  
+  button[type=button] {
+    background-color: #460194;
+    color: white;
+    padding: 3px 6px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    width: 35%;
+  }
+  
+  button[type=button]:hover {
+    background-color: #6f02b8;
+    /*width: 40px;*/
+  }
+  
+  .container-form {
+    /* Ajouter box-sizing */
+    box-sizing : border-box;
+    border: 2px solid black;
+    border-radius:10px;
+    background-image: url(./images/Formulaire_2_refonte1100px.png);
+    background-color:#f2f2f2;
+    padding:20px;
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    /*margin-top: 0;
+    margin-bottom: 0;*/
+  }
+  
+  .formsend{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 
-form .corps-formulaire .droite {
-  margin-left: 40px;
-}
-
-form .corps-formulaire .droite .groupe {
-  height: 120%;
-  width: 140%;
-}
-
-form .corps-formulaire .droite .groupe textarea {
-  margin-top: 5px;
-  padding: 10px;
-  background-color: #f1f1f1;
-  border: 2px solid #747cdf;
-  outline: none;
-  border-radius: 5px;
-  resize: none;
-  height: 72%;
-}
-
-form .pied-formulaire button {
-  margin-top: 5px;
-  background-color: #747cdf;
-  color: white;
-  font-size: 15px;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  outline: none;
-  cursor: pointer;
-  transition: transform 0.5s;
-}
-
-form .pied-formulaire button:hover {
-  transform: scale(1.05);
+  .formsend button{
+    font-family: "Alkatra", cursive;
+    font-size: 19px;   
+  }
+  .formsend button:hover{
+    transform: scale(1.05);
+    transition: ease 0.5s;
+  }
+  
+  h1  {
+    color: rgb(63, 26, 151);
+    width: 100%;
+  }
+  h2{
+  color: rgb(63, 26, 151);
+  font-family: 'Lobster', cursive;
 }

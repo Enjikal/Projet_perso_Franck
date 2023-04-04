@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Delicious+Handrawn&family=Lobster&family=Poppins&family=Sofia&display=swap');
 *,
 ::before,
 ::after {
@@ -6,8 +7,8 @@
 }
 
 body {
-  font-family: Montserrat, Helvetica, sans-serif;
-  background: #d4d3d3;
+  /*background: #d4d3d3;*/
+  height: 117vh;
 }
 
 nav {
@@ -30,6 +31,7 @@ nav .navlinks-container{
   justify-content: center;
   gap: 3rem;
   width: 100%;
+  font-family: 'Poppins', sans-serif;
 }
 .nav-icon {
   display: flex;
@@ -54,7 +56,7 @@ nav .navlinks-container{
 }
 .navlinks-container a {
   margin: 0 20px;
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 500;
   text-decoration: none;
   color: #d6d5d5;
@@ -80,30 +82,51 @@ nav .navlinks-container{
 
 .nav-authentication {
   margin-left:auto;
+  display: flex;
 }
 
 .sign-btns a{
   font-family: Roboto Flex, sans-serif;
   font-size: 19px;
   color: #f3f2f2;
-  background: rgb(63, 26, 151);
-  
+  /*background: rgb(63, 26, 151);*/
   padding: 10px 10px;
   margin: 0 5px;
   border-radius: 20px;
+  border-bottom: 3px solid rgb(41, 14, 104);
+  text-shadow: 0px -2px rgb(41, 14, 104);
+  transition: all .1s;
+  -webkit-transition: all .1s;
+  float: left;
   cursor: pointer;
-  border: 1px solid aliceblue;
-  box-shadow: 0px 1px #414141;
+}
+
+.sign-btns a:active{
+  transform: translate(0, 5px);
+  -webkit-transform: translate(0, 5px);
+  border-bottom: 1px solid;
 }
 
 .sign-btns {
-  width: 150px;
-  
+  display:flex;
+  justify-content: space-between;
 }
-.sign-btns a:nth-child(1):active{
-  /*border: none;*/
-  background: rgba(126,107,143,1);
+
+.sign-btns :first-child{
+  width: 120px;
+  background: rgba(224,143,143,1);
+  border-bottom: 3px solid rgb(224, 114, 114);
+}
+
+.sign-btns :nth-child(2){
+  background: rgb(94, 49, 134);
+}
+
+.sign-btns :first-child :active{
+  
+  background: rgb(2, 1, 2);
   }
+
   .sign-btns a:nth-child(2):active{
     /*border: none;*/
     background:rgba(126,107,143,1) ;

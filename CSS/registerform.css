@@ -4,20 +4,17 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+
+.formwrapper{
+  height: 100vh;
   background: url('../Images/Backgroundconnexion2.PNG') no-repeat;
   background-size: cover;
-  color: aliceblue;
+  display: flex;
 }
-
 .wrapper{
-  position:relative;
+  margin: auto;
   width: 560px;
-  height: 500px;
+  height: 600px;
   background: transparent;
   border: 2px solid rgba(255, 255, 255, .5);
   border-radius: 20px;
@@ -35,7 +32,8 @@ body{
 }
 .wrapper .form-box{
   width: 78%;
-  padding: 40px;
+  height: 500px;
+  padding: 30px;
 }
 
 
@@ -128,8 +126,7 @@ body{
   font-size: 19px;
   font-weight: 500;
   margin: -15px 0 15px;
-  display: flex;
-  justify-content: space-between;
+  
 }
 
 .remember-forgot label input{
@@ -140,13 +137,14 @@ body{
 .remember-forgot a{
   color: rgba(4, 4, 248, 0.801);
   text-decoration: none;
+  
 }
 
 .remember-forgot a:hover{
   text-decoration: underline;
 }
 
-.btn{
+.btn-register{
   width: 100%;
   height: 45px;
   background: aliceblue;
@@ -158,7 +156,7 @@ body{
   font-weight: 500;
 }
 
-.btn:hover {
+.btn-register:hover {
   background-color: #4f04c9;
   transform: scale(1.1);
   color: aliceblue;
@@ -166,7 +164,7 @@ body{
 }
 
 .login-register{
-  font-size: 19px;
+  font-size: 18px;
   text-align: center;
   font-weight: 500;
   margin: 25px 0 10px;
@@ -176,9 +174,11 @@ body{
   color: rgba(4, 4, 248, 0.801);
   text-decoration: none;
   font-weight: 600;
-  margin-left: 10px;
+  margin-left: 15px;
+  font-size: 20px;
 }
 
 .login-register p a:hover{
   text-decoration: underline;
 }
+
