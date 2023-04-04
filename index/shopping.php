@@ -12,14 +12,14 @@ include '../index/navbar.php';
     <div class="right">
       <div class="product-info">
         <div class="product-name">
-          <h10>Airmax</h10>
+          <h10>Tablier de cuisine</h10>
           <i class="fa fa-search"></i>
           <i class="fa fa-shopping-cart" href="#"></i>
         </div>
         <div class="details">
-          <h30>Winter Collection</h30>
+          <h30>100% coton</h30>
           <h20>Men Black Sneakers</h20>
-          <h40>150<span class="fa fa-eur"></span></h40>
+          <h40>29.99<span class="fa fa-eur"></span></h40>
         </div>
         </ul>
         <span class="foot"><i class="fa fa-shopping-bag"></i>Buy Now</span>
