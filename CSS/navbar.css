@@ -7,7 +7,11 @@
 }
 
 body {
+<<<<<<< HEAD
   /*background: #d4d3d3;*/
+=======
+  background: #d4d3d3;
+>>>>>>> 7e499620aee8eef8e44aced1b0adfe65cc5aa0fe
   height: 117vh;
 }
 
@@ -108,12 +112,20 @@ nav .navlinks-container{
 }
 
 .sign-btns {
+<<<<<<< HEAD
+=======
+  width: 340px;
+>>>>>>> 7e499620aee8eef8e44aced1b0adfe65cc5aa0fe
   display:flex;
   justify-content: space-between;
 }
 
 .sign-btns :first-child{
+<<<<<<< HEAD
   width: 120px;
+=======
+  width: 180px;
+>>>>>>> 7e499620aee8eef8e44aced1b0adfe65cc5aa0fe
   background: rgba(224,143,143,1);
   border-bottom: 3px solid rgb(224, 114, 114);
 }

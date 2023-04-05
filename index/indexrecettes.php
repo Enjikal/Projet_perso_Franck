@@ -2,7 +2,7 @@
 session_start();
 $page = 'indexrecettes';
 include '../index/navbar.php';
-$page = './navbar';
+
 ?>
 <div class="backgroundindexrecettes">
 	<ul id="menu-demo2">

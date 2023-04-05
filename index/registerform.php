@@ -1,5 +1,6 @@
 <?php
 session_start();
+<<<<<<< HEAD
 use App\models\users;
 use App\repository\UserRepository;
 
@@ -51,6 +52,8 @@ if(isset($_POST)){
 }
 
 
+=======
+>>>>>>> 7e499620aee8eef8e44aced1b0adfe65cc5aa0fe
 $page = 'registerform';
 include '../index/navbar.php';
 
