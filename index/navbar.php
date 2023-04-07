@@ -31,11 +31,6 @@ if(isset($_SESSION) && !empty($_SESSION)){
     <link rel="preconnect" href="https://fonts.googleapis.com" />
 	  <link rel="stylesheet" href="../CSS/indexrecettes.css">
     <link rel="stylesheet" href="../CSS/home.css">
-<<<<<<< HEAD
-    <link rel="stylesheet" href="../CSS/cookie.css"/>
-    <link rel="stylesheet" href="../CSS/shopping.css"/>
-=======
->>>>>>> 7e499620aee8eef8e44aced1b0adfe65cc5aa0fe
     
     
     <?php 
@@ -76,11 +71,7 @@ if(isset($_SESSION) && !empty($_SESSION)){
           <a href="../index/home.php" aria-current="page">Accueil</a>
           <a href="../index/slider.php">Galerie</a>
           <a href="../index/indexrecettes.php">Index des recettes</a>
-<<<<<<< HEAD
-          <a href="../index/shopping.php">La boutique</a>
-=======
           <a href="#">La boutique</a>
->>>>>>> 7e499620aee8eef8e44aced1b0adfe65cc5aa0fe
           <a href="../index/contact.php">Contact</a>
         </div>
       </div>
@@ -90,11 +81,8 @@ if(isset($_SESSION) && !empty($_SESSION)){
           <img src="assets/user-svgrepo-com.svg" alt="user-icon">
         </a>
         <div class="sign-btns">
-<<<<<<< HEAD
-          <a type="button" href="../index/panier.php">Mon panier</a>
-=======
-          <a type="button" href="#">Mon panier<i class="fa-light fa-basket-shopping"></i></a>
->>>>>>> 7e499620aee8eef8e44aced1b0adfe65cc5aa0fe
+          <a type="button" href="#">Mon panier</a>
+          
           <a type="button" href="registerform.php">Se connecter</a>
         </div>
       </div>

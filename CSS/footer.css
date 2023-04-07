@@ -31,11 +31,7 @@ a, p{
     color: var(--lite);
 }
 
-<<<<<<< HEAD
 h1{
-=======
-h1, h2, h3{
->>>>>>> 7e499620aee8eef8e44aced1b0adfe65cc5aa0fe
     color:var(--primary);
     font-weight:600;
 }
@@ -78,11 +74,7 @@ a, button, input, textarea, select{
 
 .padding_4x{
     padding:1rem;
-<<<<<<< HEAD
     height: 40%;
-=======
-    height: 30%;
->>>>>>> 7e499620aee8eef8e44aced1b0adfe65cc5aa0fe
     padding-top: 0.5rem;
 }
 
