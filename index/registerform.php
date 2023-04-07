@@ -1,59 +1,5 @@
 <?php
 session_start();
-<<<<<<< HEAD
-use App\models\users;
-use App\repository\UserRepository;
-
-
-if(isset($_POST)){
-    if(isset($_POST['action']) && !empty($_POST['action'])){
-        if($_POST['action'] === 'signIn'){
-            if (!empty($_POST['email']) && !empty($_POST['password'])) {
-                $login = $_POST['email'];
-                $password = $_POST['password'];
-                $userRepo = new UserRepository();
-                $usersObject = $userRepo->findAll($userRepo->getDataCount(), 0);
-
-                foreach($usersObject as $user){
-
-                    if($user->getEmail() === $login && password_verify($password,$user->getPassword())){
-                        $_SESSION['login'] = $login;
-                        $_SESSION['password'] = $user->getPassword();
-                        $_SESSION['role'] = $user->getrole();
-                        header('location: #');
-
-                    } else {
-                        $ErrorSignIn = 'utilisateur ou password inconnu';
-                    }
-                }
-            }
-            else {
-                $ErrorSignIn = 'post est vide ou pas totalement renseigné';
-            }
-        }
-        elseif ($_POST['action'] === 'signUp'){
-            if($_POST['pass'] === $_POST['pass-confirm']){
-                $userRepo = new UserRepository();
-                if(!$userRepo->findIfExist($_POST['email'])){
-                    $newUser = new users();
-                    $newUser->setEmail($_POST['email']);
-                    $newUser->setPassword($_POST['pass']);
-                    $_POST =[];
-
-                    $userRepo->addUser($newUser);
-                    header('location: #');
-                }
-                else{
-                    $ErrorSignUp = 'Cet utilisateur existe déjà !';
-                }
-            }
-        }
-    }
-}
-
-
-=======
->>>>>>> 7e499620aee8eef8e44aced1b0adfe65cc5aa0fe
 $page = 'registerform';
 include '../index/navbar.php';
 
