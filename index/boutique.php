@@ -8,12 +8,12 @@ include '../index/navbar.php';
         <!-- Nav -->
         <div class="nav container">
             <a href="#" class="logo">Ecommerce</a>
-            <!-- Cart-Icon -->
+            <!-- Icone panier -->
             <i class='bx bx-shopping-bag' id="cart-icon"></i>
-            <!-- Cart -->
+            <!-- Panier -->
             <div class="cart">
                 <h2 class="cart-title">Votre panier</h2>
-                <!-- Content -->
+                <!-- Contenu -->
                 <div class="cart-content">
 
                 </div>
@@ -22,9 +22,9 @@ include '../index/navbar.php';
                     <div class="total-title">Total</div>
                     <div class="total-price">0€</div>
                 </div>
-                <!-- Buy Button -->
+                <!-- Bouton Achat -->
                 <button type="button" class="btn-buy">Acheter maintenant</button>
-                <!-- Cart Close -->
+                <!-- Fermeture Panier -->
                 <i class='bx bx-x' id="close-cart"></i>
             </div>
         </div>
@@ -32,7 +32,7 @@ include '../index/navbar.php';
     <!-- Shop -->
     <section class="shop container">
         <h2 class="section-title">Shop Products</h2>
-        <!-- Content -->
+        <!-- Contenu -->
         <div class="shop-content">
             <!-- Box 1 -->
             <div class="product-box">

@@ -32,7 +32,7 @@ if(isset($_SESSION) && !empty($_SESSION)){
 	  <link rel="stylesheet" href="../CSS/indexrecettes.css">
     <link rel="stylesheet" href="../CSS/home.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    
+    <link rel="stylesheet" href="../CSS/boutique.css">
     
     <?php 
    if($page==='contact'){
@@ -69,7 +69,7 @@ if(isset($_SESSION) && !empty($_SESSION)){
           <span></span>
         </button>
         <div class="navlinks-container">
-          <a href="../index/home.php" aria-current="page">Accueil</a>
+          <a href="../index/home.php">Accueil</a>
           <a href="../index/slider.php">Galerie</a>
           <a href="../index/indexrecettes.php">Index des recettes</a>
           <a href="../index/boutique.php">La boutique</a>
