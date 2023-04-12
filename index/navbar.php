@@ -21,7 +21,7 @@ if(isset($_SESSION) && !empty($_SESSION)){
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Flex:opsz,wght@8..144,100;8..144,300;8..144,500;8..144,700;8..144,900&display=swap"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet"/>
-      <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
@@ -31,6 +31,7 @@ if(isset($_SESSION) && !empty($_SESSION)){
     <link rel="preconnect" href="https://fonts.googleapis.com" />
 	  <link rel="stylesheet" href="../CSS/indexrecettes.css">
     <link rel="stylesheet" href="../CSS/home.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     
     
     <?php 
@@ -71,7 +72,7 @@ if(isset($_SESSION) && !empty($_SESSION)){
           <a href="../index/home.php" aria-current="page">Accueil</a>
           <a href="../index/slider.php">Galerie</a>
           <a href="../index/indexrecettes.php">Index des recettes</a>
-          <a href="#">La boutique</a>
+          <a href="../index/boutique.php">La boutique</a>
           <a href="../index/contact.php">Contact</a>
         </div>
       </div>

@@ -114,8 +114,8 @@ nav .navlinks-container{
 
 .sign-btns :first-child{
   width: 120px;
-  background: rgba(224,143,143,1);
-  border-bottom: 3px solid rgb(224, 114, 114);
+  background: rgb(94, 49, 134);
+  border-bottom: 3px solid rgb(41, 14, 104);
 }
 
 .sign-btns :nth-child(2){
