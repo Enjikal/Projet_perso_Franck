@@ -16,8 +16,28 @@ include '../index/navbar.php';
             <div class="description"><h4>Madeleines et thé citron</h4></div>
           </div>
           <div class="swiper-slide">
-            <img src="../Images/Gâteau aux pommes caramélisées.jpg" alt="Gâteau aux pommes"/>
-            <div class="description"><h4>Gâteau aux pommes caramélisées</h4></div>
+            <img src="../Images/Pizzasnew.png" alt="pizzas"/>
+            <div class="description"><h4>Pizzas</h4></div>
+          </div>
+          <div class="swiper-slide">
+            <img src="../Images/Tajine d'agneau et abricots.jpg" alt="Tajine"/>
+            <div class="description"><h4>Tajine d'agneau et abricots</h4></div>
+          </div>
+          <div class="swiper-slide">
+            <img src="../Images/Taboulé façon Mamnew.jpg" alt="Taboulé"/>
+            <div class="description"><h4>Taboulé "façon Mam'"</h4></div>
+          </div>
+          <div class="swiper-slide">
+            <img src="../Images/Steak végétarien oeufs au plat.jpg" alt="Steakveget"/>
+            <div class="description"><h4>Steack végétarien</h4></div>
+          </div>
+          <div class="swiper-slide">
+            <img src="../Images/Salade fraîcheur Thaï.jpg" alt="Saladethaï"/>
+            <div class="description"><h4>Salade fraîcheur Thaï</h4></div>
+          </div>
+          <div class="swiper-slide">
+            <img src="../Images/Veau printanier.jpg" alt="Sautédeveau"/>
+            <div class="description"><h4>Veau printanier</h4></div>
           </div>
           <div class="swiper-slide">
             <img src="../Images/Domes chocolat.jpg" alt="Domes au chocolat"/>
@@ -48,7 +68,7 @@ include '../index/navbar.php';
             <div class="description"><h4>Tarte au citron meringuée</h4></div>
           </div>
           <div class="swiper-slide">
-            <img src="../Images/Crevettes et blé.jpg" alt="Burgers"/>
+            <img src="../Images/Crevettes et blé.jpg" alt="crevettesalade"/>
             <div class="description"><h4>Crevettes et "Ebly"</h4></div>
           </div>
           
