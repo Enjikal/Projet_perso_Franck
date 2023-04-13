@@ -1,5 +1,3 @@
-
- 
 <?php
 session_start();
 $page = 'home';
@@ -15,7 +13,7 @@ include '../index/navbar.php';
     </header>
    
 
-    <?php
-    include '../index/footer.html';
-    ?>
+<?php
+include '../index/footer.html';
+?>
    

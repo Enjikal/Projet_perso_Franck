@@ -28,7 +28,7 @@ include '../index/navbar.php';
             <div class="description"><h4>Tarte fine aux abricots</h4></div>
           </div>
          <div class="swiper-slide">
-            <img src="../Images/Baguettes fait maison.jpg" alt="Pain fait mmaison" />
+            <img src="../Images/Baguettes fait maison.jpg" alt="Pain fait maison" />
             <div class="description"><h4>Baguettes faites maison</h4></div>
           </div>
          <div class="swiper-slide">
@@ -36,8 +36,20 @@ include '../index/navbar.php';
             <div class="description"><h4>Verrines aux agrumes</h4></div>
           </div>
           <div class="swiper-slide">
-            <img src="../Images/Makis oeufs de truite.jpg" alt="Makis"/>
-            <div class="description"><h4>Makis et Sushis</h4></div>
+            <img src="../Images/Baba au rhum.jpg" alt="Babarhum"/>
+            <div class="description"><h4>Baba au rhum</h4></div>
+          </div>
+          <div class="swiper-slide">
+            <img src="../Images/Choux caramel et craquelin.JPG" alt="Choux"/>
+            <div class="description"><h4>Choux caramel et craquelin</h4></div>
+          </div>
+          <div class="swiper-slide">
+            <img src="../Images/Bavarois passion.jpg" alt="Bavaroispassion"/>
+            <div class="description"><h4>Tarte au citron meringuée</h4></div>
+          </div>
+          <div class="swiper-slide">
+            <img src="../Images/Crevettes et blé.jpg" alt="Burgers"/>
+            <div class="description"><h4>Crevettes et "Ebly"</h4></div>
           </div>
           
         </div>

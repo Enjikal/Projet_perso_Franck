@@ -22,7 +22,6 @@ if(isset($_SESSION) && !empty($_SESSION)){
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Flex:opsz,wght@8..144,100;8..144,300;8..144,500;8..144,700;8..144,900&display=swap"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="../CSS/footer.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/slider.css"/>
@@ -52,6 +51,15 @@ if(isset($_SESSION) && !empty($_SESSION)){
     <?php
    }
     ?>
+    <?php 
+    if($page==='home'){
+      ?>
+      <link rel="stylesheet" href="../CSS/home.css">
+      <?php
+         }
+      ?>
+ 
+  
   </head>
   <body>
   
@@ -79,7 +87,7 @@ if(isset($_SESSION) && !empty($_SESSION)){
 
       <div class="nav-authentication">
         <a href="#" class="sign-user" aria-label="Sign in page">
-          <img src="assets/user-svgrepo-com.svg" alt="user-icon">
+          <img src="assets\user-svgrepo-com.svg" alt="user-icon">
         </a>
         <div class="sign-btns">
           <a type="button" href="#">Mon panier</a>
