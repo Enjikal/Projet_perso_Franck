@@ -25,11 +25,11 @@ body{
 
 
 #background-home{
-  background: url(../images/Nappe-rouge-et-table-bois.jpg);
+  background: url(../Images/Nappe-rouge-et-table-bois.jpg);
   /*background-repeat: no-repeat;*/
   height: 100vh;
   background-position: center;
-  background-size: cover;
+  /*background-size: cover;*/
   display: flex;
   flex-direction: column;
   justify-content: center;

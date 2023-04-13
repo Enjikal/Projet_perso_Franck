@@ -6,7 +6,7 @@ include '../index/navbar.php';
 ?>
 
 
-<header id="background-home">
+<div id="background-home">
         <div class="welcome-title">
         <h1>Bienvenue sur notre site de recettes de cuisine "faites maison" !</h1>
         </div>
@@ -17,7 +17,7 @@ Nous sommes ravis de partager notre passion pour la cuisine avec vous et nous es
  N'hésitez pas à nous contacter si vous avez des questions ou des commentaires. Bon appétit !
                 </div>
         
-    </header>
+</div>
    
 
     <?php
