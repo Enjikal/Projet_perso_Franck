@@ -7,7 +7,7 @@ include '../index/navbar.php';
     <div>
         <!-- Nav -->
         <div class="nav-container">
-            <a href="#" class="logo">Ecommerce</a>
+            <a href="#" class="logo">La boutique de Mam'</a>
             <!-- Icone panier -->
             <i class='bx bx-shopping-bag' id="cart-icon"></i>
             <!-- Panier -->
@@ -31,7 +31,7 @@ include '../index/navbar.php';
 </div>
     <!-- Shop -->
     <section class="shop-container">
-        <h2 class="section-title">Shop Products</h2>
+        <h2 class="section-title">La boutique de Mam'</h2>
         <!-- Contenu -->
         <div class="shop-content">
             <!-- Box 1 -->

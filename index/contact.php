@@ -25,7 +25,7 @@ include '../index/navbar.php';
           <label>Message</label>
           <textarea id="subject" name="subject" placeholder="Votre message ..."></textarea>
       <div class="formsend">
-          <button type="button">Envoyer</button>
+          <button type="button" onclick="moderation()">Envoyer</button>
           </div>
         
       </div>
