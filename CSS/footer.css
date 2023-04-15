@@ -184,9 +184,9 @@ footer .flex:last-child{
     align-items:center;
 }
 
-footer .flex:last-child .flex-content:last-child{
+/*footer .flex:last-child .flex-content:last-child{
     text-align:right;
-}
+}*/
 
 footer .flex:last-child p{
     color: black;

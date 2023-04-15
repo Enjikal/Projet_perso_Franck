@@ -9,9 +9,9 @@ include '../index/navbar.php';
         <div class="nav-container">
             <a href="#" class="logo">La boutique de Mam'</a>
             <!-- Icone panier -->
-            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+            <i class='bx bx-shopping-bag ' id="cart-icon"></i>
             <!-- Panier -->
-            <div class="cart">
+            <div class="cart" id="cart">
                 <h2 class="cart-title">Votre panier</h2>
                 <!-- Contenu -->
                 <div class="cart-content">

@@ -90,7 +90,7 @@ if(isset($_SESSION) && !empty($_SESSION)){
           <img src="assets\user-svgrepo-com.svg" alt="user-icon">
         </a>
         <div class="sign-btns">
-          <a type="button" href="#">Mon panier</a>
+          <a type="button" id="btn-cart" href="#">Mon panier</a>
           
           <a type="button" href="registerform.php">Se connecter</a>
         </div>

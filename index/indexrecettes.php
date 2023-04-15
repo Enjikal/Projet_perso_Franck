@@ -38,19 +38,19 @@ include '../index/navbar.php';
 				<li><a href="#">Bavarois aux fruits de la passion</a></li>
 				<li><a href="#">Demies-sphères au chocolat</a></li>
 				<li><a href="#">Gâteau aux pommes</a></li>
+				<li><a href="#">Petits choux caramel et craquelin</a></li>
 				<li><a href="#">Tarte fine aux abricots</a></li>
 				<li><a href="#">Tarte au citron meringuée</a></li>
-			    <li><a href="#">Petits choux caramel et craquelin</a></li>
 			</ul>
 		</li>
 		  <li class="stickers"><a href="#">Pain et Pâtes</a>
 			<ul>
 				<li><a href="#">Pain façon "Mam"</a></li>
+				<li><a href="#">Pâte à baba</a></li>
+				<li><a href="#">Pâte à crêpes</a></li>
 				<li><a href="#">Pâte à pizza</a></li>
 				<li><a href="#">Pâte à quiche</a></li>
 				<li><a href="#">Pâte à tarte</a></li>
-				<li><a href="#">Pâte à baba</a></li>
-				<li><a href="#">Pâte à crèpes</a></li>
 			</ul>
 		</li>
 	</ul>
