@@ -80,7 +80,7 @@ function ready(){
         addProductToCart(title, price, productImg);
         updatetotal();
         console.log(title,price, productImg);
-        button.style.background = "rgb(63, 26, 151)";
+        button.style.background = "blue";
     }
     function addProductToCart(title, price, productImg) {
         var cartShopBox = document.createElement("div");

@@ -7,7 +7,7 @@ include '../index/navbar.php';
     <div>
         <!-- Nav -->
         <div class="nav-container">
-            <a href="#" class="logo">La boutique de Mam'</a>
+            <a href="#" class="logo"></a>
             <!-- Icone panier -->
             <i class='bx bx-shopping-bag ' id="cart-icon"></i>
             <!-- Panier -->
