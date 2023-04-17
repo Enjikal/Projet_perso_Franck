@@ -1,49 +1,49 @@
-// Cart
+// Panier
 let cartIcon = document.querySelector('#btn-cart');
 let cart = document.querySelector('#cart');
 let closeCart = document.querySelector('#close-cart');
-// Open cart
+// Ouvrir panier
 cartIcon.onclick = () => {
     cart.classList.add("active");
 console.log(cart);
 };
-// Close cart
+// Fermer panier
 closeCart.onclick = () => {
     cart.classList.remove("active");
 };
 
 
-// Cart working JS
+// Fonctionnement panier JS
 if (document.readyState == 'loading') {
     document.addEventListener('DOMContentLoaded', ready);
 } else {
     ready();
 } 
-// Making function
+
 function ready(){
-    //Remove items from cart
+    //Supprimer des articles du panier
     var removeCartButtons = document.getElementsByClassName('cart-remove');
     console.log(removeCartButtons);
     for (var i= 0; i < removeCartButtons.length; i++){
         var button = removeCartButtons[i];
         button.addEventListener('click', removeCartItem);
     }
-    // Quantity Changes
+    // Changer la quantité d'articles dans le panier
     var quantityInputs = document.getElementsByClassName('cart-quantity');
     for (var i = 0; i < quantityInputs.length; i++) {
         var input = quantityInputs[i];
         input.addEventListener("change", quantityChanged);
     }
-    // Add To Cart
+    // Ajouter au panier
     var addCart = document.getElementsByClassName('add-cart');
     for (var i = 0; i < addCart.length; i++){
         var button = addCart[i];
         button.addEventListener("click",  addCartClicked);
     }
-    // Buy Button Work
+    // Fonctionnement bouton acheter
     document.getElementsByClassName('btn-buy')[0].addEventListener('click', buyButtonClicked);
 }
-    // Buy Button
+    // Bouton acheter
     function buyButtonClicked(){
         alert('Commande validée avec succés !');
         var cartContent = document.getElementsByClassName('cart-content')[0];
@@ -55,14 +55,14 @@ function ready(){
 
 
 
-//Remove items from cart
+//Supprimer des articles du panier
     function removeCartItem(event){
         var buttonClicked = event.target;
         buttonClicked.parentElement.remove();
   
         updatetotal();
     }
-    // Quantity Changes
+    // Changement quantité
     function quantityChanged(event){
         var input = event.target;
         if (isNaN(input.value) || input.value <= 0) {
@@ -70,7 +70,7 @@ function ready(){
         }
         updatetotal();
     }
-    // Add To Cart
+    // Ajouter au panier
     function addCartClicked(event){
         var button = event.target;
         var shopProducts = button.parentElement;
@@ -106,7 +106,7 @@ function ready(){
     cartShopBox.getElementsByClassName('cart-remove')[0].addEventListener('click', removeCartItem);                        
     cartShopBox.getElementsByClassName('cart-quantity')[0].addEventListener('change', quantityChanged);
 }
-    // Update total
+    // Prix total
     function updatetotal(){
         var cartContent = document.getElementsByClassName("cart-content")[0];
         var cartBoxes = cartContent.getElementsByClassName("cart-box");
@@ -119,7 +119,7 @@ function ready(){
            var quantity = quantityElement.value;
            total = total + (price * quantity);
         } 
-    // If price Contain some Cents Value
+    // Si le prix total contient trop de chiffres après la virgule
         total = Math.round(total * 100) / 100;
 
            document.getElementsByClassName("total-price")[0].innerText = "€" + total;

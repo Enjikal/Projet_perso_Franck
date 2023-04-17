@@ -16,7 +16,7 @@ include '../index/navbar.php';
                 <!-- Contenu -->
                 <div class="cart-content">
 
-                </div>
+                </div> 
                 <!-- Total -->
                 <div class="total">
                     <div class="total-title">Total</div>
@@ -28,7 +28,7 @@ include '../index/navbar.php';
                 <i class='bx bx-x' id="close-cart"></i>
             </div>
         </div>
-</div>
+    </div>
     <!-- Shop -->
     <section class="shop-container">
         <h2 class="section-title">La boutique de Mam'</h2>
