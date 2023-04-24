@@ -75,7 +75,7 @@
 
 .form-box h2{
   font-size: 2rem;
-  /*color: rgb(59, 24, 139);*/
+  color: aliceblue;
   text-align: center;
 }
 
@@ -85,6 +85,7 @@
   height: 50px;
   border-bottom: 2px solid #162938;
   margin: 30px 0;
+  color: aliceblue;
 }
 
 .input-box label{

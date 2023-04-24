@@ -5,7 +5,7 @@ include '../index/navbar.php';
 
 ?>
 
-<form>
+<form action="submit_contact.php" method="POST">
 
   <div class="contact-form">
   <div class="container-form">

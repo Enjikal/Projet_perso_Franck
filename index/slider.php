@@ -13,7 +13,7 @@ include '../index/navbar.php';
           <!-- Slides -->
           <div class="swiper-slide">
             <img src="../Images/Thé,madeleine et nappe vichy.jpg" alt="Madeleines"/>
-            <div class="description"><h4>Madeleines et thé citron</h4></div>
+            <div class="description"><h4>Madeleines</h4></div>
           </div>
           <div class="swiper-slide">
             <img src="../Images/Pizzasnew.png" alt="pizzas"/>
@@ -65,7 +65,7 @@ include '../index/navbar.php';
           </div>
           <div class="swiper-slide">
             <img src="../Images/Bavarois passion.jpg" alt="Bavaroispassion"/>
-            <div class="description"><h4>Tarte au citron meringuée</h4></div>
+            <div class="description"><h4>Bavarois aux fruits de la passion</h4></div>
           </div>
           <div class="swiper-slide">
             <img src="../Images/Crevettes et blé.jpg" alt="crevettesalade"/>
