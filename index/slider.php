@@ -12,6 +12,10 @@ include '../index/navbar.php';
         <div class="swiper-wrapper">
           <!-- Slides -->
           <div class="swiper-slide">
+            <img src="../Images/makis.jpg" alt="makis"/>
+            <div class="description"><h4>Makis et Sushis</h4></div>
+          </div>
+          <div class="swiper-slide">
             <img src="../Images/Thé,madeleine et nappe vichy.jpg" alt="Madeleines"/>
             <div class="description"><h4>Madeleines</h4></div>
           </div>
@@ -44,8 +48,8 @@ include '../index/navbar.php';
             <div class="description"><h4>Demies sphères chocolat noir</h4></div>
           </div>
          <div class="swiper-slide">
-            <img src="../Images/tarte.png.jpg" alt="Tarte aux abricots" />
-            <div class="description"><h4>Tarte fine aux abricots</h4></div>
+            <img src="../Images/tarte.png.jpg" alt="Tarte aux pêches" />
+            <div class="description"><h4>Tarte fine aux pêches</h4></div>
           </div>
          <div class="swiper-slide">
             <img src="../Images/Baguettes fait maison.jpg" alt="Pain fait maison" />
