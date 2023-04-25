@@ -14,7 +14,7 @@ include '../index/navbar.php';
 
     <div class="form-box login">
       <h2>Me connecter</h2>
-      <form action="#">
+      <form method="POST" action="#">
         <div class="input-box">
           <span class="icon"><ion-icon name="mail"></ion-icon></span>
           <input type="email" required>
@@ -38,7 +38,7 @@ include '../index/navbar.php';
 
     <div class="form-box register">
       <h2>M'enregistrer</h2>
-      <form action="#">
+      <form method="POST" action="#">
         <div class="input-box">
           <span class="icon"><ion-icon name="person"></ion-icon></span>
           <input type="text" required>
