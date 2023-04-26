@@ -17,19 +17,19 @@ include '../index/navbar.php';
       <form method="POST" action="#">
         <div class="input-box">
           <span class="icon"><ion-icon name="mail"></ion-icon></span>
-          <input type="email" required>
-          <label>Email</label>
+          <input type="text" id="email" required>
+          <label for="loginUser">Email</label>
         </div>
         <div class="input-box">
           <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
-          <input type="password" required>
-          <label>Mot de passe</label>
+          <input type="password" id="password" required>
+          <label for="loginPassword">Mot de passe</label>
         </div>
         <div class="remember-forgot">
           <label><input type="checkbox"> Se souvenir de moi</label>
              <a href="#">Mot de passe oublié ?</a>
         </div>
-        <button type="submit" class="btn-register">Me connecter</button>
+        <button type="submit" value="login" class="btn-register">Me connecter</button>
         <div class="login-register">
           <p>Créer un compte<a href="#" class="register-link">M'enregistrer</a></p>
         </div>
@@ -46,18 +46,18 @@ include '../index/navbar.php';
         </div>
         <div class="input-box">
           <span class="icon"><ion-icon name="mail"></ion-icon></span>
-          <input type="email" required>
-          <label>Email</label>
+          <input type="text" id="email" required>
+          <label for="loginUser">Email</label>
         </div>
         <div class="input-box">
           <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
-          <input type="password" required>
-          <label>Mot de passe</label>
+          <input type="password" id="password" required>
+          <label for="loginPassword">Mot de passe</label>
         </div>
         <div class="remember-forgot">
           <label><input type="checkbox"> J'accepte les Conditions Générales d'Utilisation</label>
         </div>
-        <button type="submit" class="btn-register">Créer mon compte</button>
+        <button type="submit" value="login" class="btn-register">Créer mon compte</button>
         <div class="login-register">
           <p>J'ai déjà un compte <a href="#" class="login-link">Me connecter</a></p>
         </div>
