@@ -2,7 +2,7 @@
 session_start();
 $page = 'home';
 include '../index/navbar.php';
-
+include './data/users.php';
 ?>
 
 
