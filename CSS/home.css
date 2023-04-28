@@ -41,8 +41,8 @@ body{
 }
 
 #background-home h1{
-  font-size: 50px;
-  color: aliceblue;
+  font-size: 55px;
+  color: rgb(233, 245, 255);
 }
 
 #background-home p{
@@ -56,11 +56,11 @@ body{
   background: blueviolet;
   border: blueviolet 3px solid;
   padding: 10px 20px;
-  border-radius: 10px;
+  border-radius: 15px;
   margin-top: 20px;
 }
 #background-home .more-button:hover {
-  background: none;
+  background: rgba(152, 81, 218, 0.705);
   color: black;
 }
 .welcome-title{

@@ -119,7 +119,6 @@ header {
 
 .cart-quantity {
     border: 1px solid var(--text-color);
-    outline-color: red;
     width: 2.4rem;
     text-align: center;
     font-size: 1rem;
@@ -189,17 +188,19 @@ header {
 /* Shop Content */
 .shop-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(290px, auto));
+    gap: 3rem;
 }
 
 .product-box {
     position: relative;
+    padding: 10px;
 }
 
 .product-box:hover {
     padding: 10px;
     border: 2px solid var(--text-color);
+    border-radius: 10px;
     transition: 0.3s;
 }
 
@@ -228,6 +229,7 @@ header {
     color: var(--bg-color);
     padding: 10px;
     cursor: pointer;
+    border-bottom-right-radius: 10px;
 }
 
 .add-cart:hover {
