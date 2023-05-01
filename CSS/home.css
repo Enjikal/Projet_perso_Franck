@@ -43,6 +43,7 @@ body{
 #background-home h1{
   font-size: 55px;
   color: rgb(233, 245, 255);
+  padding: 0 20px;
 }
 
 #background-home p{
