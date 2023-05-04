@@ -25,12 +25,15 @@ include '../index/navbar.php';
 		<li class="stickers"><a href="#">Les plats</a>
 			<ul>
 				<li><a href="#">Aubergines farcies</a></li>
+				<li><a href="#">Filet de poulet sauce BBQ</a></li>
+				<li><a href="#">Grâtin dauphinois</a></li>
+				<li><a href="#">Pâtes bolognaises</a></li>
 				<li><a href="#">Poulet au citron</a></li>
 				<li><a href="#">Sauté de veau printanier</a></li>
 				<li><a href="#">Tajine d'agneau</a></li>
-				<li><a href="#">Filet de poulet sauce BBQ</a></li>
-				<li><a href="#">Pâtes bolognaises</a></li>
-				<li><a href="#">Poulet au citron</a></li>
+				
+				
+				
 			</ul>
 		</li>
 		<li class="stickers"><a href="#">Les desserts</a>
