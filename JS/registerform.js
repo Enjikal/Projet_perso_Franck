@@ -1,7 +1,7 @@
 const wrapper = document.querySelector('.wrapper');
 const loginLink = document.querySelector('.login-link');
 const registerLink = document.querySelector('.register-link');
-
+const close = document.querySelector('.icon-close');
 
 registerLink.addEventListener('click', ()=> {
     wrapper.classList.add('active');
@@ -11,3 +11,8 @@ registerLink.addEventListener('click', ()=> {
 loginLink.addEventListener('click', ()=> {
     wrapper.classList.remove('active');
 });
+
+close.addEventListener("click", ()=> {
+    console.log("click")
+    window.location.replace("/index/home.php")
+})
