@@ -20,14 +20,18 @@ class UserRepository extends AbstractRepository {
             return null;
         }
 
+        //ici creer requete pour ajouter utilisateur
+
+
         // Crée un nouvel objet utilisateur et renvoie ses données
         $user = new User();
         $user->setId($data['id']);
-        
+        $password = $data['password'];
+
         $user->setFirstName($data['firstName']);
         $user->setLastName($data['lastName']);
         $user->setEmail($data['email']);
-        $user->setPasswords($data['password']);
+        $user->setPasswords(password_hash($password, PASSWORD_DEFAULT));
         $user->setRole($data['role']);
         
 
