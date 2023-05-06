@@ -9,7 +9,7 @@ include '../index/navbar.php';
         <div class="nav-container">
             <a href="#" class="logo"></a>
             <!-- Icone panier -->
-            <i class='bx bx-shopping-bag ' id="cart-icon"></i>
+            <!-- <i class='bx bx-shopping-bag ' id="cart-icon"></i> -->
             <!-- Panier -->
             <div class="cart" id="cart">
                 <h2 class="cart-title">Votre panier</h2>
