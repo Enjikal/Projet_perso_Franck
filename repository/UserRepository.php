@@ -38,17 +38,18 @@ class UserRepository extends AbstractRepository {
     }
 
    // Crée un nouvel utilisateur dans la base de données
-   public function createUser(string $userName, string $firstName, string $lastName, string $email, string $password): int
+   public function createUser(string $firstName, string $lastName, string $email, string $password, string $role): int
    {
        $hashed_password = password_hash($password, PASSWORD_ARGON2I);
 
-       $query = "INSERT INTO users (userName, firstName, lastName, email, password) VALUES (:userName, :firstName, :lastName, :email, :password)";
+       $query = "INSERT INTO users (firstName, lastName, email, password, role) VALUES (:userName, :firstName, :lastName, :email, :password, :role)";
        $statement = $this->pdo->prepare($query);
        $statement->bindParam(':userName', $userName, PDO::PARAM_STR);
        $statement->bindParam(':firstName', $firstName, PDO::PARAM_STR);
        $statement->bindParam(':lastName', $lastName, PDO::PARAM_STR);
        $statement->bindParam(':email', $email, PDO::PARAM_STR);
        $statement->bindParam(':password', $hashed_password, PDO::PARAM_STR);
+       $statement->bindParam(':role', $role,PDO::PARAM_STR);
        $statement->execute();
 
        return $this->pdo->lastInsertId();

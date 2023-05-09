@@ -2,8 +2,29 @@
 session_start();
 $page = 'registerform';
 include '../index/navbar.php';
-use App\UserRepository;
+include '../repository/UserRepository.php';
 
+if (isset($_POST['formType'])) {
+  $userRepository = new UserRepository();
+  if ($_POST['formType'] == 'register') {
+      $firstName = $_POST['firstName'];
+      $lastName = $_POST['lastName'];
+      $email = $_POST['email'];
+      $password = $_POST['password'];
+      $role = $_POST['role'];
+      $userRepository->createUser($firstName, $lastName, $email, $password, $role);
+      // Rediriger l'utilisateur vers une page de confirmation ou d'erreur
+  } elseif ($_POST['formType'] == 'login') {
+      $email = $_POST['email'];
+      $password = $_POST['password'];
+      $user = $userRepository->findByEmail($email);
+      if ($user !== null && password_verify($password, $user->getPasswords())) {
+          // Connecter l'utilisateur et le rediriger vers la page d'accueil
+      } else {
+          // Afficher un message d'erreur et inviter l'utilisateur à réessayer
+      }
+  }
+}
 ?>
 
 <div class="formwrapper">
