@@ -4,15 +4,15 @@ class User
 {
     private int $id;
 
-    private ?string $first_name = null;
+    private ?string $first_name ;
 
-    private ?string $last_name = null;
+    private ?string $last_name ;
 
-    private ?string $email = null;
+    private ?string $email ;
 
-    private ?string $passwords = null;
+    private ?string $passwords ;
 
-    private ?string $role = null;
+    private ?string $role ;
     
     public function getId(): int
     {

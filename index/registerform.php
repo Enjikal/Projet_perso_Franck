@@ -2,7 +2,7 @@
 session_start();
 $page = 'registerform';
 include '../index/navbar.php';
-
+use App\UserRepository;
 
 ?>
 
@@ -41,7 +41,7 @@ include '../index/navbar.php';
       <form method="POST" action="#">
         <div class="input-box">
           <span class="icon"><ion-icon name="person"></ion-icon></span>
-          <input type="text" required>
+          <input type="text" required >
           <label>Nom utilisateur</label>
         </div>
         <div class="input-box">
