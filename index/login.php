@@ -1,6 +1,6 @@
 <?php
 session_start();
-$page = 'registerform';
+$page = 'login';
 include '../index/navbar.php';
 include '../repository/UserRepository.php';
 

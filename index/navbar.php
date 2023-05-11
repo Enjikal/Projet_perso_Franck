@@ -43,11 +43,11 @@ if(isset($_SESSION) && !empty($_SESSION)){
    }
     ?>
        <?php 
-   if($page==='registerform'){
+   if($page==='login'){
 
    
     ?>
-    <link rel="stylesheet" href="../CSS/registerform.css">
+    <link rel="stylesheet" href="../CSS/login.css">
     <?php
    }
     ?>
@@ -92,7 +92,7 @@ if(isset($_SESSION) && !empty($_SESSION)){
         <div class="sign-btns">
           <a type="button" id="btn-cart" href="#">Mon panier</a>
           
-          <a type="button" href="registerform.php">Se connecter</a>
+          <a type="button" href="login.php">Se connecter</a>
         </div>
       </div>
     </nav>
