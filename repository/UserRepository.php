@@ -1,7 +1,7 @@
 <?php
 require_once ('AbstractRepository.php');
 
-use \PDO;
+
 class UserRepository extends AbstractRepository {
 
     // Récupère tous les utilisateurs enregistrés
@@ -19,6 +19,7 @@ class UserRepository extends AbstractRepository {
         $query->bindParam(":email", $email, PDO::PARAM_STR);
         $query->execute();
         $data = $query->fetch();
+        var_dump($data);
         if ($data === false) {
             return null;
         }
@@ -27,7 +28,6 @@ class UserRepository extends AbstractRepository {
         $user = new User();
         $user->setId($data['id']);
         $password = $data['password'];
-
         $user->setFirstName($data['firstName']);
         $user->setLastName($data['lastName']);
         $user->setEmail($data['email']);
