@@ -43,11 +43,11 @@ if(isset($_SESSION) && !empty($_SESSION)){
    }
     ?>
        <?php 
-   if($page==='login'){
+   if($page==='registerform'){
 
    
     ?>
-    <link rel="stylesheet" href="../CSS/login.css">
+    <link rel="stylesheet" href="../CSS/registerform.css">
     <?php
    }
     ?>
@@ -87,12 +87,12 @@ if(isset($_SESSION) && !empty($_SESSION)){
 
       <div class="nav-authentication">
         <a href="#" class="sign-user" aria-label="Sign in page">
-          <img src="../assets/user-svgrepo-com.svg" alt="user-icon">
+          <img src="assets\user-svgrepo-com.svg" alt="user-icon">
         </a>
         <div class="sign-btns">
           <a type="button" id="btn-cart" href="#">Mon panier</a>
           
-          <a type="button" href="login.php">Se connecter</a>
+          <a type="button" href="registerform.php">Se connecter</a>
         </div>
       </div>
     </nav>
