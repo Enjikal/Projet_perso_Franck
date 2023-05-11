@@ -87,7 +87,7 @@ if(isset($_SESSION) && !empty($_SESSION)){
 
       <div class="nav-authentication">
         <a href="#" class="sign-user" aria-label="Sign in page">
-          <img src="assets\user-svgrepo-com.svg" alt="user-icon">
+          <img src="../assets/user-svgrepo-com.svg" alt="user-icon">
         </a>
         <div class="sign-btns">
           <a type="button" id="btn-cart" href="#">Mon panier</a>

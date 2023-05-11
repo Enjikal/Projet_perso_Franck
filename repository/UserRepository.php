@@ -31,7 +31,7 @@ class UserRepository extends AbstractRepository {
         $user->setFirstName($data['firstName']);
         $user->setLastName($data['lastName']);
         $user->setEmail($data['email']);
-        $user->setPasswords(password_hash($password, PASSWORD_DEFAULT));
+        $user->setPassword(password_hash($password, PASSWORD_DEFAULT));
         $user->setRole($data['role']);
 
         return $user;

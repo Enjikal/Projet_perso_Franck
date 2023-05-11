@@ -18,7 +18,7 @@ if (isset($_POST['formType'])) {
       $email = $_POST['email'];
       $password = $_POST['password'];
       $user = $userRepository->findByEmail($email);
-      if ($user !== null && password_verify($password, $user->getPasswords())) {
+      if ($user !== null && password_verify($password, $user->getPassword())) {
           // Connecter l'utilisateur et le rediriger vers la page d'accueil
       } else {
           // Afficher un message d'erreur et inviter l'utilisateur à réessayer

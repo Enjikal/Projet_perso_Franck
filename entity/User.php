@@ -10,7 +10,7 @@ class User
 
     private ?string $email ;
 
-    private ?string $passwords ;
+    private ?string $password ;
 
     private ?string $role ;
     
@@ -58,14 +58,14 @@ class User
         return $this;
     }
 
-    public function getPasswords(): string
+    public function getPassword(): string
     {
-        return $this->passwords;
+        return $this->password;
     }
 
-    public function setPasswords(string $passwords): User
+    public function setPassword(string $password): User
     {
-        $this->passwords = $passwords;
+        $this->password = $password;
         return $this;
     }
 
