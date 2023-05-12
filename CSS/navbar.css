@@ -46,8 +46,9 @@ nav .navlinks-container{
   /*margin-left: 20px;*/
   font-weight: 400;
   color: rgb(63, 26, 151);
-  display: block;
-  text-align: center;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
 }
 .nav-icon img {
   width: 65px;
