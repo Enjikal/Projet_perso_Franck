@@ -10,13 +10,12 @@ form{
 .contact-form{
   display: flex;
   justify-content: center;
-  /*justify-items: center;*/
   height: 105vh;
 }
 
 
 
-   input[type=text], textarea, input[type=email] {
+input[type=text], textarea, input[type=email] {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -28,7 +27,7 @@ form{
     margin-left: 0px;
   }
   
-  form ,label{
+form ,label{
     /*font-style: 'Sofia', cursive; */
     font-size: 18px;  
     margin-right: 0px;
@@ -37,7 +36,7 @@ form{
     color: black;
   }
   
-  button[type=button] {
+button[type=button] {
     background-color: #460194;
     color: white;
     padding: 3px 6px;
@@ -47,12 +46,12 @@ form{
     width: 35%;
   }
   
-  button[type=button]:hover {
+button[type=button]:hover {
     background-color: #6f02b8;
     /*width: 40px;*/
   }
   
-  .container-form {
+.container-form {
     /* Ajouter box-sizing */
     box-sizing : border-box;
     border: 2px solid black;
@@ -66,30 +65,29 @@ form{
     display: flex;
     flex-direction: column;
     justify-items: center;
-    /*margin-top: 0;*/
-    /*margin-bottom: 0;*/
+   
   }
   
-  .formsend{
+.formsend{
     width: 100%;
     display: flex;
     justify-content: center;
   }
 
-  .formsend button{
+.formsend button{
     font-family: "Alkatra", cursive;
     font-size: 19px;   
   }
-  .formsend button:hover{
+.formsend button:hover{
     transform: scale(1.05);
     transition: ease 0.5s;
   }
   
-  h1  {
+h1  {
     color: rgb(63, 26, 151);
     width: 100%;
   }
-  h2{
+h2{
   color: rgb(63, 26, 151);
   font-family: 'Lobster', cursive;
 }
